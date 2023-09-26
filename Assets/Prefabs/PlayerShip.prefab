@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4128896187653560}
+  - component: {fileID: 5580401873377165025}
   m_Layer: 8
   m_Name: TurretRotator
   m_TagString: Untagged
@@ -31,6 +32,18 @@ Transform:
   m_Father: {fileID: 4368249187107940}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &5580401873377165025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194270976900878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8df3d3707fc198e4f853795b48f3e007, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1334640751579420
 GameObject:
   m_ObjectHideFlags: 0
@@ -289,6 +302,7 @@ GameObject:
   - component: {fileID: 54827132454177206}
   - component: {fileID: 1037696547857677981}
   - component: {fileID: 1971927258877817398}
+  - component: {fileID: 1536957111308322462}
   m_Layer: 8
   m_Name: PlayerShip
   m_TagString: Player
@@ -357,6 +371,7 @@ MonoBehaviour:
   shipCannon: {fileID: 4128896187653560}
   muzzle: {fileID: 3782170115167380617}
   bullet: {fileID: 5599867440813186744, guid: 0e9c239fd33d94404b671bc44ab4f6b4, type: 3}
+  shipSpeed: 10
 --- !u!114 &1971927258877817398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -369,6 +384,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b2757169d4fa45138194644db71d293, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1536957111308322462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664251521892296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ef374ed2f4264438e420144f8267c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiltMultiplier: 2
 --- !u!1 &1957318569610646
 GameObject:
   m_ObjectHideFlags: 0
